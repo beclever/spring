@@ -9,8 +9,19 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>autoware</module>
         <module>helloworld</module>
+        <module>ioc-beanFactory</module>
+        <module>ioc-scope</module>
+        <module>ioc-applicationContext</module>
+        <module>ioc-lifecycle</module>
+        <module>ioc-beanPostProcessor</module>
+        <module>ioc-inherit</module>
+        <module>di-constructor</module>
+        <module>di-setter</module>
+        <module>di-innerbean</module>
+        <module>di-collection</module>
+        <module>annotation</module>
+        <module>autoware</module>
     </modules>
 
     <properties>

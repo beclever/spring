@@ -5,8 +5,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="helloWorld" class="HelloWorld">
-        <property name="message" value="Hello World!"/>
+    <!-- Definition for textEditor bean -->
+    <bean id="textEditor" class="com.beclever.TextEditor">
+        <property name="spellChecker" ref="spellChecker"/>
+    </bean>
+
+    <!-- Definition for spellChecker bean -->
+    <bean id="spellChecker" class="com.beclever.SpellChecker">
     </bean>
 
 </beans>
